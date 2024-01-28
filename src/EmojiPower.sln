@@ -3,7 +3,42 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34511.84
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmojiPower", "EmojiPower\EmojiPower.csproj", "{92E3510A-456B-4CDB-A2C0-024204B2B7F1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmojiPower.Core", "EmojiPower.Core\EmojiPower.Core.csproj", "{3052B4B0-3DEC-47F1-9F4E-57C3937B6B1E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmojiPower.Generator", "EmojiPower.Generator\EmojiPower.Generator.csproj", "{BC3EBAC5-70B7-475B-AB60-BF3377571F95}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmojiPower.Test", "EmojiPower.Test\EmojiPower.Test.csproj", "{5B587E9F-57A3-4E09-8325-DB06B278D45E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".docs", ".docs", "{26AD0642-FC9D-4239-9E23-9F58145D6549}"
+	ProjectSection(SolutionItems) = preProject
+		..\README.md = ..\README.md
+	EndProjectSection
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{92E3510A-456B-4CDB-A2C0-024204B2B7F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92E3510A-456B-4CDB-A2C0-024204B2B7F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92E3510A-456B-4CDB-A2C0-024204B2B7F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92E3510A-456B-4CDB-A2C0-024204B2B7F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3052B4B0-3DEC-47F1-9F4E-57C3937B6B1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3052B4B0-3DEC-47F1-9F4E-57C3937B6B1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3052B4B0-3DEC-47F1-9F4E-57C3937B6B1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3052B4B0-3DEC-47F1-9F4E-57C3937B6B1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC3EBAC5-70B7-475B-AB60-BF3377571F95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC3EBAC5-70B7-475B-AB60-BF3377571F95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC3EBAC5-70B7-475B-AB60-BF3377571F95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC3EBAC5-70B7-475B-AB60-BF3377571F95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B587E9F-57A3-4E09-8325-DB06B278D45E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B587E9F-57A3-4E09-8325-DB06B278D45E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B587E9F-57A3-4E09-8325-DB06B278D45E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B587E9F-57A3-4E09-8325-DB06B278D45E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection

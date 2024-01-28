@@ -1,2 +1,3 @@
-# emoji-power
- C# library where emoji live
+# Emoji Power
+
+C# library where emoji live
