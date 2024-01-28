@@ -67,7 +67,7 @@ jobs:
         dotnet-version: 8.0.100
         source-url: https://nuget.pkg.github.com/${{github.repository_owner}}/index.json
       env:
-        NUGET_AUTH_TOKEN: ${{secrets.PACKAGES_WRITE_TOKEN}} 
+        NUGET_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}} 
 
     - name: 📂 Files
       working-directory: ${{env.ROOT}}
